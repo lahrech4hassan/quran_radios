@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="radio.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>الإستماع للقرآن الكريم</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">الرئيسية</a>
+        <a href="contact.html">إتصال</a>
+        <a href="about.html">حول الموقع</a>
+        <a href="qurans.html">الإستماع للقرآن الكريم</a>
+        <a href="tajwid.html">المصحف المجود</a>
+        <a href="tartil.html">تراتيل قصيرة و تلاوات خاشعة</a>
+        <a href="marocaine.html">قراءات مغربية </a>
+        <div class="dropdown">
+          <button class="dropbtn">الإذاعات 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="maghreb.html">إذاعات المغرب العربي</a>
+            <a href="meast.html">إذاعات الشرق الأوسط</a>
+            <a href="golf.html">إذاعات الخليج العربي</a>
+            <a href="quran.html">إذاعات القرآن الكريم</a>
+            <a href="tafssir.html">إذاعات تفسير القرآن</a>
+          </div>
+        </div> 
+        
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      
+      <div style="padding-right:30px">
+        <h2> </h2>
+        
+      </div>
+      <iframe src="https://qari.app/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="800px" width="100%px" allowfullscreen></iframe>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    <script src="script.js"></script>
+</body>
+</html>

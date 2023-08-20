@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="radio.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>إذاعات المصحف المجود </title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">الرئيسية</a>
+        <a href="contact.html">إتصال</a>
+        <a href="about.html">حول الموقع</a>
+        <a href="qurans.html">الإستماع للقرآن الكريم</a>
+        <a href="tajwid.html">المصحف المجود</a>
+        <a href="tartil.html">تراتيل قصيرة و تلاوات خاشعة</a>
+        <a href="marocaine.html">قراءات مغربية </a>
+        <div class="dropdown">
+          <button class="dropbtn">الإذاعات 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="maghreb.html">إذاعات المغرب العربي</a>
+            <a href="meast.html">إذاعات الشرق الأوسط</a>
+            <a href="golf.html">إذاعات الخليج العربي</a>
+            <a href="quran.html">إذاعات القرآن الكريم</a>
+            <a href="tafssir.html">إذاعات تفسير القرآن</a>
+          </div>
+        </div> 
+        
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      
+      <div>
+        <h2>إذاعات  المصحف المجود</h2>
+      </div><hr>
+ 
+<!-- ==================================================== -->
+<div class="card" data-audio="https://backup.qurango.net/radio/mohammed_siddiq_alminshawi_mojawwad"><img src="https://static.suratmp3.com/pics/reciters/thumbs/27_600_600.jpg"alt=image"><h4> محمد صديق المنشاوي</h4></div>
+<div class="card" data-audio="https://backup.qurango.net/radio/mahmoud_khalil_alhussary_mojawwad"><img src="https://i1.sndcdn.com/artworks-000046719918-rd1ccm-t500x500.jpg"alt=image"><h4> محمود خليل الحصري</h4></div>
+<div class="card" data-audio="https://backup.qurango.net/radio/mahmoud_ali__albanna_mojawwad"><img src="https://static.suratmp3.com/pics/reciters/thumbs/36_600_600.jpg"alt=image"><h4> محمود علي البنا</h4></div>
+<div class="card" data-audio="https://backup.qurango.net/radio/abdulbasit_abdulsamad_mojawwad"><img src="https://static.suratmp3.com/pics/reciters/thumbs/6_600_600.jpg"alt=image"><h4> عبدالباسط عبدالصمد</h4></div>
+
+<!-- ==================================================== -->
+<!-- ==================================================== -->
+
+<audio id="audio-player" controls></audio>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+<script src="script.js"></script>
+</body>
+</html>
